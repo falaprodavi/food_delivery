@@ -90,7 +90,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
-              BigText(text: "Recommended"),
+              BigText(text: "Recomendados"),
               SizedBox(
                 width: Dimensions.width10,
               ),
@@ -252,7 +252,6 @@ class _FoodPageBodyState extends State<FoodPageBody> {
         children: [
           GestureDetector(
             onTap: () {
-
               Get.toNamed(RouteHelper.getPopularFood(index));
             },
             child: Container(
